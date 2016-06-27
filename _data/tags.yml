@@ -1,0 +1,41 @@
+# Add an entry, where the key represents a slug.
+# Provide at least a `name` value and optionally `image`, `color` and `description`.
+# Markdown is enabled for `description`, however don't use more than one paragraph (enforced by `>`)
+#
+# Example:
+#
+# ~~~
+# mytag:
+#   name: My Tag
+#   description: >
+#     *My Tag* is an example of how to define a custom tag.
+# ~~~
+
+random:
+  name: Random
+  image: /bloque/public/img/nice.jpg
+  color: '#949667'
+  description: >
+    Some random stuff about many things
+
+ml:
+  name: ML
+  image: /bloque/public/img/noise.jpg
+  color: '#949667'
+  description: >
+    How i roll in mud
+
+security:
+  name:  Veritas Securitas Bakırtas
+  image: /bloque/public/img/deepdark.jpg
+  color: '#949667'
+  description: >
+    Time has changes but people aren't
+
+oriental:
+  name: Oriental
+  image: /bloque/public/img/istanbul.jpg
+  color: '#949667'
+  description: >
+    This is not middle earth
+    

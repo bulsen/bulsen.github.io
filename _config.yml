@@ -1,0 +1,44 @@
+# Permalinks
+permalink:        pretty
+
+# Setup
+url:              http://ismailamca.github.io
+
+# Set to '' in case of hosting on `http://<your-github-name>.github.io`
+baseurl:          /bloque
+
+title:            Meraba
+
+# Markdown enabled, however don't use more than one paragraph (enforced by `>`)
+description:      >
+  the way i see the way i be
+
+# The tags listed as entries in the sidebar
+sidebar_tags:     [ml, oriental, random, security]
+
+# Fallback image and color if not overwritten for tag or post
+image:            /bloque/public/img/oye.jpg
+color:            '#A85641'
+
+author:
+  name:           'Burak Gülşen'
+
+  # Setting social media usernames will add icons at the bottom of the sidebar        
+  github:         ismailamca
+
+  # This photo will be used in the about section
+  
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:          |
+    meraba I am Burak, [`ismailamca`](http://github.com/ismailamca)
+    i am another chronic medschool student, another machine learning enthusiast,
+    another hacker [`@duvartv`](http://duvar.tv)
+    another person living double life
+    another coffeholic
+
+
+
+kramdown:
+  math_engine: mathjax
+  math_engine_opts:
+    preview: true

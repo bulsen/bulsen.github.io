@@ -1,0 +1,26 @@
+---
+layout: default
+title: "404: Page not found"
+permalink: 404.html
+---
+<script>
+//routing for root
+var page = window.location.href
+var arr = page.split("/")
+
+if ( arr.indexOf("bloque") > -1) {
+	console.log("ok")
+} else {
+
+	window.location.href = "/bloque/"
+
+}
+</script>
+
+
+
+<div class="page">
+  <h1 class="page-title">&#x2665; 404 &#x2665;</h1>
+  <p class="lead">Sorry, world wasn't that big <br>
+  but you can <a href="{{ site.baseurl }}/">head back home</a> and read something else </p>
+</div>
