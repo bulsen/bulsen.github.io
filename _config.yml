@@ -5,7 +5,6 @@ permalink:        pretty
 url:              http://ismailamca.github.io
 
 # Set to '' in case of hosting on `http://<your-github-name>.github.io`
-baseurl:          /bloque
 
 title:            Meraba
 
@@ -17,7 +16,7 @@ description:      >
 sidebar_tags:     [ml, oriental, random, security]
 
 # Fallback image and color if not overwritten for tag or post
-image:            /bloque/public/img/oye.jpg
+image:            /public/img/oye.jpg
 color:            '#A85641'
 
 author:
